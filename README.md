@@ -1,2 +1,2 @@
 # YL-fitness-training
-YL Fitness Training online coaching website
+YL Online Fitness Training 
