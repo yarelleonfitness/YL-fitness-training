@@ -14,3 +14,4 @@ export default function Home() {
     </div>
   );
 }
+Force visible homepage styles
