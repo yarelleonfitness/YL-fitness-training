@@ -1,0 +1,93 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  color: gold;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: gold;
+  margin: 16px 0;
+}
+
+/* Paragraphs */
+p {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+/* Buttons */
+button {
+  background-color: gold;
+  color: black;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffcc00;
+}
+
+/* Links */
+a {
+  color: gold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+nav {
+  background-color: black;
+  border-bottom: 1px solid gold;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 16px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* CTA Section */
+.cta-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-section h1 {
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.cta-section p {
+  font-size: 20px;
+  margin-bottom: 32px;
+}
