@@ -1,4 +1,25 @@
 export default function Programs() {
+  return (
+    <div style={{
+      backgroundColor: 'black',
+      color: 'gold',
+      minHeight: '100vh',
+      padding: '40px',
+      fontFamily: 'Arial, sans-serif'
+    }}>
+      <h1 style={{ fontSize: '40px', fontWeight: 'bold' }}>Programs</h1>
+      <p style={{ fontSize: '18px', marginTop: '20px', lineHeight: '1.6' }}>
+        Choose the program that fits your lifestyle and goals:
+      </p>
+
+      <ul style={{ marginTop: '20px', fontSize: '18px', lineHeight: '1.6' }}>
+        <li><strong>Starter:</strong> Beginner-friendly program to build foundation and consistency.</li>
+        <li><strong>Pro:</strong> Intermediate program focusing on strength, conditioning, and skill.</li>
+        <li><strong>Elite:</strong> Advanced program for high-performance training and results.</li>
+      </ul>
+    </div>
+  );
+}export default function Programs() {
   const programs = [
     { title: "Starter", desc: "Beginner-friendly, full body programs.", price: "$49/month" },
     { title: "Pro", desc: "Intermediate programs with progression tracking.", price: "$99/month" },
